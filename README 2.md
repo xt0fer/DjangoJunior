@@ -1,6 +1,8 @@
 # DjangoJunior
 mini Django site to Heroku
 
+Test
+
 ## Features
 
 - Production-ready configuration for Static Files, Database Settings, Gunicorn, etc.
