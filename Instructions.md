@@ -14,6 +14,7 @@ Test
 To use this project, follow these steps:
 
 1. Create your working environment. `$ python3 -m venv venv`
+1. activate virtual env `source venv/bin/activate`
 2. Install Django (`$ pip3 install django`)
 3. Create a new project using this template
 
@@ -40,6 +41,18 @@ You can replace ``junior`` with your desired project name.
 
 See also, a [ready-made application](https://github.com/heroku/python-getting-started), ready to deploy.
 
+postgres=# create database dj;
+CREATE DATABASE
+postgres=# create user myuser with encrypted password '';
+CREATE ROLE
+postgres=# grant all privileges on database dj to myuser;
+GRANT
+
+sudo -u postgres psql
+
+CREATE DATABASE yourdbname;
+CREATE USER youruser WITH ENCRYPTED PASSWORD 'yourpass';
+GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
 
 ## License: MIT
 
