@@ -11,8 +11,9 @@ mini Django site to Heroku
 
 To use this project, follow these steps:
 
-1. Create your working environment. `$ python -m venv venv`
-2. Install Django (`$ pipenv install django`)
+1. Create your working environment. `$ python3 -m venv venv`
+1. Activate Virual Env `$ source venv/bin/activate`
+2. Install Django `$ pip3 install django`
 3. Create a new project using this template
 
 ## Creating Your Project
