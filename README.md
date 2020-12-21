@@ -1,6 +1,7 @@
-# Heroku Django Starter Template
+# DjangoJunior
+mini Django site to Heroku
 
-An utterly fantastic project starter template for Django 2.0.
+Test
 
 ## Features
 
@@ -12,20 +13,19 @@ An utterly fantastic project starter template for Django 2.0.
 
 To use this project, follow these steps:
 
-1. Create your working environment. `$ python3 -m venv venv`
-1. Activate Virual Env `$ source venv/bin/activate`
-2. Install Django `$ pip3 install django`
+1. Create your working environment. `$ python -m venv venv`
+2. Install Django (`$ pipenv install django`)
 3. Create a new project using this template
 
 ## Creating Your Project
 
 Using this template to create a new Django app is easy::
 
-    $ django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile helloworld
+    $ django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile junior
 
 (If this doesn't work on windows, replace `django-admin.py` with `django-admin`)
 
-You can replace ``helloworld`` with your desired project name.
+You can replace ``junior`` with your desired project name.
 
 ## Deployment to Heroku
 
